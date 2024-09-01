@@ -13,7 +13,7 @@ import MailIcon from '@mui/icons-material/Mail';
 import MenuIcon from '@mui/icons-material/Menu';
 import { IconButton, Typography } from '@mui/material';
 import { Link, NavLink } from 'react-router-dom';
-import Logo from '../assets/image/logo-01-1.png';
+import Logo from '../assets/image/Logo-01-1.png';
 
 
 function DrawerNavbar() {
