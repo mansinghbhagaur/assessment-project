@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* HeroSection css */
+.img1{
+  background-image: url('./assets/image/Icon-001.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* margin-top: 220px; */
+  background-position-x: center;
+  background-position-y: bottom;
+ 
+}
+.img2{
+  background-image: url('./assets/image/Heros-04.png');
+  background-size: 68%;
+  /* margin-top: 100px; */
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position-y: bottom;
+  background-position-x: center;
+ 
+}
+.slides{
+  overflow-x: hidden;
+}
+.SliderBgColor{
+  background-color: aquamarine;
+  height: 100%;  
+  padding-bottom: 80px;
+  
+}
+
+/* traderoom css */
+.tradeMain{
+  position: relative;
+}
+.inner-image {
+  position: absolute;
+  top: 170px;
+  right: 125px;
+}
+
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+.container .container_box{
+  margin-top: 250px;
+}
+
+@media only screen and (max-width: 600px) {
+ .container{
+   padding: 0px !important;
+   
+ }
+ .container .container_box{
+    margin-top: 50px;
+ }
+ /* HeroSection css */
+.img1{
+  background-image: url('./assets/image/Icon-001.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* margin-top: 220px; */
+ 
+ 
+}
+.img2{
+ 
+  background-size: 70%;
+  /* margin-top: 100px; */
+ 
+  height: 50vh;
+ 
+ 
+}
+/* traderoom css */
+.tradeMain img{
+  width: 100%;
+}
+/* .tradeMain{
+  position: none;
+} */
+.inner-image {
+  /* position: none; */
+  top: 80px;
+  right: 25px;
+}
+.textSize{
+  font-size: 3rem !important;
+}
+.padding{
+  padding: 40px 20px 60px 20px !important;
+}
+/* card css */
+.cardpadding{
+  padding: 40px 0px 60px 0px !important;
+}
+/* paddingArtical css */
+.paddingArtical{
+  padding: 40px 0px 60px 0px !important;
+  
+
+}
+.textcentercontact{
+  text-align: center;
+}
+.textcopyalign{
+  text-align: center !important;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+  
+  /* .inner-image {
+    top: 80px;
+    right: 25px;
+  }  */
+  .cardpadding{
+    padding: 40px 0px 60px 0px !important;
+  }
+  
+}
+
+@media only screen and (max-width: 1165px) {
+  .container .container_box{
+    margin-top: 50px;
+    
+ } 
+}
