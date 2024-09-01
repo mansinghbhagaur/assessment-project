@@ -17,7 +17,7 @@ import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
 
 import { Link, NavLink } from "react-router-dom";
-import Logo from "../assets/image/logo-01-1.png";
+import Logo from "../assets/image/Logo-01-1.png";
 
 
 
